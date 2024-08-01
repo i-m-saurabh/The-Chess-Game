@@ -57,6 +57,8 @@ const renderBoard = () => {
                         col: parseInt(squareElement.dataset.col)
                     };
                     handleMove(sourceSquare, targetSource);
+                    // console.log(sourceSquare);
+                    // console.log(targetSource);
                 }
             });
 
