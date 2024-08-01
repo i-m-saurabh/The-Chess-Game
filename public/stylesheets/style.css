@@ -16,6 +16,7 @@
     color: black;
 }
 
+/* Rotate the board for black player */
 .flipped {
     transform: rotate(180deg);
 }
